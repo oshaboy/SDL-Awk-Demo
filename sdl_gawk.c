@@ -1,8 +1,5 @@
-#include <stddef.h>
-#include <stdio.h>
 #include <sys/stat.h>
 #include <SDL2/SDL.h>
-#include <gmp.h>
 #include <gawkapi.h>
 #include <mpfr.h>
 int plugin_is_GPL_compatible;
