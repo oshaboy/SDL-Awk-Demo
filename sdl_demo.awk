@@ -24,7 +24,6 @@ BEGIN {
 			if(t==256){
 				quit=1
 			}
-			SDL_FreeEvent(event)
 			event=SDL_PollEvent()
 		}
 		SDL_RenderPresent(renderer)
